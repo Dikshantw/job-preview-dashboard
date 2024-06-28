@@ -13,7 +13,7 @@ import usersIcon from "../assets/users-01.svg";
 const JobDescription = () => {
   return (
     <div className="flex justify-between">
-      <div className="flex flex-col w-full border border-solid border-[#E7E7E7]">
+      <div className="flex flex-col bg-[#FFFFFF] w-full border border-solid border-[#E7E7E7]">
         {/*Job Title*/}
         <div className="flex flex-col gap-6 pl-[100px] pt-9 pb-8">
           <div className="flex gap-3 justify-start items-center">
@@ -213,7 +213,7 @@ const JobDescription = () => {
           </div>
         </div>
       </div>
-      <div className="flex w-[410px] shadow-[0px_4px_4px_0px_#00000040] border-[1px,1px,0px,0px] border-solid border-[#E7E7E7]">
+      <div className="flex w-[410px] bg-[#FCFCFC] shadow-[0px_4px_4px_0px_#00000040] border-[1px,1px,0px,0px] border-solid border-[#E7E7E7]">
         <div className="flex flex-col px-6 pt-9 w-[360px]">
           <div className="flex justify-between">
             <button className="flex gap-[10px] justify-center items-center rounded-[8px] border-[0.8px] border-solid border-[#DC4A2D] py-3 px-6">
