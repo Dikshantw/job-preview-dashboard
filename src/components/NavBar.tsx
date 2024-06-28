@@ -7,7 +7,7 @@ import bellIcon from "../assets/bell-02.svg";
 import chevrondownIcon from "../assets/chevron-down.svg";
 const NavBar = () => {
   return (
-    <div className="flex justify-between items-center sticky top-0 py-6 pl-10 pr-6 shadow-[0px_4px_4px_0px_#D9D9D91A]">
+    <div className="flex bg-[#FFFFFF] justify-between items-center sticky top-0 py-6 pl-10 pr-6 shadow-[0px_4px_4px_0px_#D9D9D91A]">
       <div className="flex justify-center items-center w-[100px] h-[61px] bg-[#E7E7E7] text-[#DC4A2D]">
         <p className="text-xl font-bold leading-[27px] text-left">Logo</p>
       </div>
