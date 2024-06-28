@@ -96,6 +96,40 @@ const JobDescription = () => {
         </div>
       </div>
       <div className=" h-[1px] bg-[#E7E7E7]"></div>
+      {/* {about the job} */}
+      <div className="flex flex-col gap-2 pl-[100px] py-8">
+        <p className="text-sm text-[#6E6D6D] font-medium leading-[18.9px] text-left">
+          About the job
+        </p>
+        <div className="text-base text-[#3D3D3D] font-medium leading-7 text-left">
+          <ol className="list-decimal list-inside">
+            <li>Handle the UI/UX research design</li>
+            <li>
+              Work on researching on latest web applications designs & trends
+            </li>
+            <li>Work on conceptualizing and visualizing</li>
+            <li>
+              Work on creating graphics content and other graphic related works
+            </li>
+          </ol>
+          <ul className="list-disc list-inside">
+            Benefits:
+            <li className="mr-1">Health insurance</li>
+            <li className="mr-1">Provident Fund</li>
+          </ul>
+          <ul className="list-disc list-inside">
+            Schedule:
+            <li className="mr-1">Day Shift</li>
+          </ul>
+          <ul className="list-disc list-inside">
+            Supplemental pay types:
+            <li className="mr-1">Performance bonus</li>
+            <li className="mr-1">Yearly bonus</li>
+          </ul>
+          <p>Work Location: In person</p>
+        </div>
+      </div>
+      <div className=" h-[1px] bg-[#E7E7E7]"></div>
     </div>
   );
 };
