@@ -3,6 +3,7 @@ import coinsIcon from "../assets/coins-stacked-03.svg";
 import Figma from "../assets/figma.png";
 import AdobeIllustrator from "../assets/adobeIL.png";
 import AdobeXD from "../assets/adobeXD.png";
+import AtlasianLogo from "../assets/atlasianLogo.png";
 const JobDescription = () => {
   return (
     <div className="flex flex-col w-full border border-solid border-[#E7E7E7]">
@@ -130,6 +131,80 @@ const JobDescription = () => {
         </div>
       </div>
       <div className=" h-[1px] bg-[#E7E7E7]"></div>
+      {/* About hob section */}
+      <div className="flex flex-col w-[736px] gap-4 pl-[100px] py-8">
+        <div className="flex justify-start items-center gap-[10px]">
+          <img src={AtlasianLogo} alt="atlasian logo" />
+          <p className="text-xl text-[#4F4F4F] font-medium leading-[27px] text-left">
+            Atlassian
+          </p>
+        </div>
+        <div className="flex justify-between gap-12">
+          <div className="flex flex-col gap-6">
+            <div>
+              <p className="text-sm text-[#6E6D6D] font-medium leading-[18.9px] text-left">
+                Company size
+              </p>
+              <p className="text-base text-[#3D3D3D] font-medium leading-[21.6px] text-left">
+                1k - 2k Empolyees
+              </p>
+            </div>
+            <div>
+              <p className="text-sm text-[#6E6D6D] font-medium leading-[18.9px] text-left">
+                Sector
+              </p>
+              <p className="text-base text-[#3D3D3D] font-medium leading-[21.6px] text-left">
+                Information Technology, Infrastructure
+              </p>
+            </div>
+            <div>
+              <p className="text-sm text-[#6E6D6D] font-medium leading-[18.9px] text-left">
+                Founded In
+              </p>
+              <p className="text-base text-[#3D3D3D] font-medium leading-[21.6px] text-left">
+                2019
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-col gap-6">
+            <div>
+              <p className="text-sm text-[#6E6D6D] font-medium leading-[18.9px] text-left">
+                Type
+              </p>
+              <p className="text-base text-[#3D3D3D] font-medium leading-[21.6px] text-left">
+                Private
+              </p>
+            </div>
+            <div>
+              <p className="text-sm text-[#6E6D6D] font-medium leading-[18.9px] text-left">
+                Funding
+              </p>
+              <p className="text-base text-[#3D3D3D] font-medium leading-[21.6px] text-left">
+                Bootstrapped
+              </p>
+            </div>
+            <div>
+              <p className="text-sm text-[#6E6D6D] font-medium leading-[18.9px] text-left">
+                Founded By
+              </p>
+              <p className="text-base text-[#3D3D3D] font-medium leading-[21.6px] text-left">
+                <a
+                  href="https://www.google.com/search?sca_esv=2e8a42a989b18c72&sca_upv=1&sxsrf=ADLYWIJfOan6Il30oG_UZfuOgWJJQyy6jw:1718807486320&q=Scott+Farquhar&si=ACC90nwLLwns5sISZcdzuISy7t-NHozt8Cbt6G3WNQfC9ekAgGn2U5_lv-iJKoEW9GGV3oQ_U1KzHM3grBvdDJw8AP9jrnXyCRK6qNSYCb3jHdJP2aGUh_HIEtaCjacARkKoOWECb-5Ob0Mv9e_MI4c_vMY8PVDZWA6-OO6yqvbV1TIRgm4P4FtNTbK6rHh3ojk0CXz_ZgaKdVf6VpRiXhZ7YUAy8LzI5HMyryDEBGhju5Ama_FvECG7_qGa4tSKw7XIbHa99s9btrbgRBy-6z85_2p6BPYPhA%3D%3D&sa=X&sqi=2&ved=2ahUKEwip7KLt8OeGAxVBRmwGHTGjBGsQmxMoAXoECDYQAw"
+                  target="blank"
+                >
+                  Scott Farquhar,
+                </a>
+                <a
+                  href="https://www.google.com/search?sca_esv=2e8a42a989b18c72&sca_upv=1&sxsrf=ADLYWIJfOan6Il30oG_UZfuOgWJJQyy6jw:1718807486320&q=Mike+Cannon-Brookes&si=ACC90nwLLwns5sISZcdzuISy7t-NHozt8Cbt6G3WNQfC9ekAgJsvrQUWPOKZ8iETJQdvnbU2UFD7BVWUbHmvxqkn_X6fnbX-LLuIjmm9FYDOCdLoN8dDFvHE1HsZUhT6XIGTrbZRGGDIDstquY_yluK6YQX1NkHtmo0wsp8wVD7ouAbjfDvaQHjO4Iyd2AKnCQbPH8-Ah5otgNPwHcJ39HScqiWv6SVxYRXUiznwfdbns6uKnydurua8JyyTlcxFT3lPFMTAfAAzqy-x0DxflUh6aHFtCEgFOChGuNdxmDlND1wruAK7SbM%3D&sa=X&sqi=2&ved=2ahUKEwip7KLt8OeGAxVBRmwGHTGjBGsQmxMoAnoECDYQBA"
+                  target="blank"
+                >
+                  Mike Cannon-Brookes
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
